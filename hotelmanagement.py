@@ -1,7 +1,9 @@
+
 from tkinter import*
 import random
 import time
 import datetime
+
 root=Tk()
 root.geometry("1600x8000")
 root.title("Restaurant Management System")
@@ -14,6 +16,7 @@ lblInfo=Label(Tops,font=('helvetica',50,'bold'),text="HOTEL BLUE WHALE ",fg="Bla
 lblInfo.grid(row=0,column=0)
 lblInfo=Label(Tops,font=('arial',20,'bold'),text=localtime,fg="Steel Blue",bd=10,anchor='w')
 lblInfo.grid(row=1,column=0)
+
 def Ref():
     x=random.randint(10908,500876)
     randomRef=str(x)
